@@ -1,0 +1,2 @@
+1590673080a:1:{s:10:"slider.htm";a:5:{s:8:"fileName";s:10:"slider.htm";s:7:"content";s:43:"
+{% component 'slider' slide_show_id =1 %}";s:5:"mtime";i:1590672477;s:6:"markup";s:41:"{% component 'slider' slide_show_id =1 %}";s:4:"code";N;}}

@@ -1,0 +1,22 @@
+1590673930a:1:{s:7:"map.htm";a:6:{s:8:"fileName";s:7:"map.htm";s:7:"content";s:329:"[googleMap]
+latitude = 51.506767
+longitude = -0.122205
+zoom = 12
+width = "100%"
+height = "350px"
+mapTypeId = "ROADMAP"
+showMarker = "true"
+==
+<section class="section section--map ">
+    <div class="container ">
+        <div class="map ">
+            {% component 'googleMap' %}
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1590578512;s:6:"markup";s:178:"<section class="section section--map ">
+    <div class="container ">
+        <div class="map ">
+            {% component 'googleMap' %}
+        </div>
+    </div>
+</section>";s:4:"code";N;s:9:"googleMap";a:7:{s:8:"latitude";s:9:"51.506767";s:9:"longitude";s:9:"-0.122205";s:4:"zoom";s:2:"12";s:5:"width";s:4:"100%";s:6:"height";s:5:"350px";s:9:"mapTypeId";s:7:"ROADMAP";s:10:"showMarker";s:4:"true";}}}

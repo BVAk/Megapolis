@@ -1,0 +1,79 @@
+1590673470a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1514:"description = "Default layout"
+
+[alternateHrefLangElements]
+==
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{'assets/css/style.css'|theme }}">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="{{'assets/css/main.css'|theme}}" >
+    <title>{{ this.page.title }}</title>
+    {% styles %}
+    {% component 'alternateHrefLangElements' %}
+</head>
+
+<body>
+
+    <header class="header" id="header">
+
+    {% component 'alternateHrefLangElements' %}
+        {% partial 'site/header' %}
+
+    </header>
+    <div class="page "></div>
+
+    {% page %}
+	{% partial 'site/footer' %}
+    </div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="{{'assets/js/app.js'|theme}}"></script>
+    {% framework extras %}
+	{% scripts %}
+</body>
+
+</html>";s:5:"mtime";i:1590672861;s:6:"markup";s:1447:"<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{'assets/css/style.css'|theme }}">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="{{'assets/css/main.css'|theme}}" >
+    <title>{{ this.page.title }}</title>
+    {% styles %}
+    {% component 'alternateHrefLangElements' %}
+</head>
+
+<body>
+
+    <header class="header" id="header">
+
+    {% component 'alternateHrefLangElements' %}
+        {% partial 'site/header' %}
+
+    </header>
+    <div class="page "></div>
+
+    {% page %}
+	{% partial 'site/footer' %}
+    </div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="{{'assets/js/app.js'|theme}}"></script>
+    {% framework extras %}
+	{% scripts %}
+</body>
+
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";s:25:"alternateHrefLangElements";a:0:{}}}

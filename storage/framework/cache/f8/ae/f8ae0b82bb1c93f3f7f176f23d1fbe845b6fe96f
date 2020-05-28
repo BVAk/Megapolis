@@ -1,0 +1,38 @@
+1590673831a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:700:"[localePicker]
+
+==
+<div class="container">
+    <div class="header__inner">
+        <div class="header__logo" data-scroll="#intro">Megapolis</div>
+
+        <nav class="nav" id="nav">
+
+            <a class="nav__link" href="{{ 'home'|page }} ">Главная</a>
+            <a class="nav__link " href="{{ 'catalog'|page }} ">Каталог</a>
+            <a class=" nav__link " href="{{ 'info'|page }} ">Контакты</a>
+            <a class=" nav__link ">{% component 'localePicker' %}</a>
+
+        </nav>
+
+        <button class="nav-toggle " id="nav_toggle " type="button ">
+                <span class="nav-toggle__item ">Menu</span>
+            </button>
+    </div>
+</div>";s:5:"mtime";i:1590672610;s:6:"markup";s:678:"<div class="container">
+    <div class="header__inner">
+        <div class="header__logo" data-scroll="#intro">Megapolis</div>
+
+        <nav class="nav" id="nav">
+
+            <a class="nav__link" href="{{ 'home'|page }} ">Главная</a>
+            <a class="nav__link " href="{{ 'catalog'|page }} ">Каталог</a>
+            <a class=" nav__link " href="{{ 'info'|page }} ">Контакты</a>
+            <a class=" nav__link ">{% component 'localePicker' %}</a>
+
+        </nav>
+
+        <button class="nav-toggle " id="nav_toggle " type="button ">
+                <span class="nav-toggle__item ">Menu</span>
+            </button>
+    </div>
+</div>";s:4:"code";N;s:12:"localePicker";a:0:{}}}

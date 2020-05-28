@@ -1,0 +1,12 @@
+1590673914a:1:{s:11:"catalog.htm";a:7:{s:8:"fileName";s:11:"catalog.htm";s:7:"content";s:218:"[ProductList ProductList2]
+sorting = "no"
+
+[ProductPage ProductPage2]
+slug = "{{ :slug }}"
+slug_required = 1
+smart_url_check = 0
+skip_error = 0
+==
+{% component 'ProductList2' %}
+{% component 'ProductPage2' %}";s:5:"mtime";i:1590673305;s:6:"markup";s:62:"{% component 'ProductList2' %}
+{% component 'ProductPage2' %}";s:4:"code";N;s:24:"ProductList ProductList2";a:1:{s:7:"sorting";s:2:"no";}s:24:"ProductPage ProductPage2";a:4:{s:4:"slug";s:11:"{{ :slug }}";s:13:"slug_required";s:1:"1";s:15:"smart_url_check";s:1:"0";s:10:"skip_error";s:1:"0";}}}

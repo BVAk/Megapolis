@@ -1,0 +1,231 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../fonts/montserrat/Montserrat-Medium.ttf');
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+
+#table100 {
+    width: 100%;
+    background-color: #fff;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 100%;
+    display: block;
+}
+
+th,
+td {
+    font-weight: unset;
+    padding-right: 10px;
+}
+
+.column100 {
+    width: 130px;
+    padding-left: 25px;
+}
+
+.column100.column1 {
+    width: 265px;
+    padding-left: 42px;
+}
+
+.row100.head th {
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.row100 td {
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
+
+
+/*==================================================================
+[ Ver1 ]*/
+
+.table100.ver1 td {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #808080;
+    line-height: 1.4;
+}
+
+.table100.ver1 th {
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: #36304a;
+}
+
+.table100.ver1 .row100:hover {
+    background-color: #f2f2f2;
+}
+
+.table100.ver1 .hov-column-ver1 {
+    background-color: #f2f2f2;
+}
+
+.table100.ver1 .hov-column-head-ver1 {
+    background-color: #484848 !important;
+}
+
+.table100.ver1 .row100 td:hover {
+    background-color: #6c7ae0;
+    color: #fff;
+}
+
+#preview_image {
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+}
+
+#preview_image2 {
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+}
+
+.logo-footer {
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* 
+  This is the starting grid for each video with thumbnails 4 across for the largest screen size.
+  It's important to use percentages or there may be gaps on the right side of the page. 
+  */
+
+.video {
+    background: #fff;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    width: 23%;
+    /* Thumbnails 4 across */
+    margin: 1%;
+    padding: auto;
+    float: left;
+    position: relative;
+}
+
+.video-about {
+    background: #fff;
+    max-height: 100%;
+    max-width: 100%;
+    /* Thumbnails 4 across */
+    float: left;
+    margin: auto;
+    padding: auto;
+}
+
+.video-about img {
+    border-radius: 3%;
+}
+
+.about-text {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 25px;
+}
+
+
+/* 
+  These styles keep the height of each video thumbnail consistent between YouTube and Vimeo. 
+  Each can have thumbnail sizes that vary by 1px and are likely break your layout. 
+  */
+
+.video figure {
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.video figure a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 0;
+}
+
+.video .icon {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+
+/* Media Queries - This is the responsive grid. */
+
+@media (max-width: 1024px) {
+    .video {
+        width: 31.333%;
+        /* Thumbnails 3 across */
+    }
+}
+
+@media (max-width: 600px) {
+    .video {
+        width: 48%;
+        /* Thumbnails 2 across */
+    }
+    .fc-timeGridWeek-button, .fc-timeGridDay-button{
+      display: none!important;
+     }
+     .fc-header-toolbar, #calendar{
+        padding: 0!important;
+        display: block!important;
+     }
+     .fc-center{
+        margin: 10px 0;
+     }
+    
+}
+
+@media (max-width: 360px) {
+    .video {
+        display: block;
+        width: 96%;
+        /* Single column view. */
+        margin: 2%;
+        /* The smaller the screen, the smaller the percentage actually is. */
+        float: none;
+    }
+}
+
+
+/* These are my preferred rollover styles. */
+
+.video img {
+    width: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.video img:hover,
+.video img:active,
+.video img:focus {
+    opacity: 0.75;
+}
+
+.table-div{
+    overflow-x: auto;
+}
